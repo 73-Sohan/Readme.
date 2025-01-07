@@ -3,4 +3,4 @@
 * Platform changelog url : [change log](https://developer.voicemaker.in/changelog)
 
 ## v0.1
-*- Initial Release
+* Initial Release
