@@ -137,9 +137,21 @@ Generates a TTS audio file.
 ## Error Handling
 
 The module provides error handling for:
+
 -Missing API key.
 -Invalid parameter values (e.g., unsupported sample rates or out-of-range settings).
 -API errors (e.g., network issues or invalid API responses).
+```
+try {
+  await vm.tts_file('output.mp3');
+} catch (error) {
+  console.error('An error occurred:', error.message);
+}
+```
+## Notes
+Ensure you have a valid `API key` from [Voicemaker.in](https://voicemaker.in/)
+Use supported sample rates and format values as per the API documentation.
+Check language and voice compatibility based on your requirements.
 
-
-
+## Support
+For issues or feature requests, [support@voicemaker.in](https://voicemaker.in/contact)
