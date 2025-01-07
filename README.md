@@ -137,7 +137,6 @@ Generates a TTS audio file.
 ## Error Handling
 
 The module provides error handling for:
-
 -Missing API key.
 -Invalid parameter values (e.g., unsupported sample rates or out-of-range settings).
 -API errors (e.g., network issues or invalid API responses).
